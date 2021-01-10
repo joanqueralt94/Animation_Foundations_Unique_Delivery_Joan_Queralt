@@ -17,6 +17,8 @@ public class DrawLine : MonoBehaviour
     public float _lineDrawSpeed = 12f;
     public Transform _origin;
     public Transform _destination;
+
+    public Vector3 pointLine;
     
     // Start is called before the first frame update
     void Start()
@@ -46,7 +48,7 @@ public class DrawLine : MonoBehaviour
             _pointA = _origin.position;
             _pointB = _destination.position;
 
-            Vector3 pointLine = x*Vector3.Normalize(_pointB - _pointA) + _pointA;
+            pointLine = x*Vector3.Normalize(_pointB - _pointA) + _pointA;
         
             _lineRenderer.SetPosition(1, pointLine);  
         }
