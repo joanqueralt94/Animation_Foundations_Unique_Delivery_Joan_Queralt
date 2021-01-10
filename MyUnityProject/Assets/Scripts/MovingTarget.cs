@@ -70,7 +70,8 @@ public class MovingTarget: MonoBehaviour
 
             //update the position
             transform.position = transform.position + new Vector3(-horizontalInput * _movementSpeed * Time.deltaTime, verticalInput * _movementSpeed * Time.deltaTime, 0);
-
+            
+            
 
             if (Input.GetButtonDown("Fire1"))
             {
