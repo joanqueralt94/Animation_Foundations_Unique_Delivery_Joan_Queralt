@@ -14,7 +14,7 @@ public class DrawLine : MonoBehaviour
     private Vector3 _pointB;
 
 
-    public float _lineDrawSpeed = 6f;
+    public float _lineDrawSpeed = 12f;
     public Transform _origin;
     public Transform _destination;
     
