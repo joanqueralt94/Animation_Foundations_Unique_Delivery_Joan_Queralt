@@ -17,7 +17,8 @@ public class Ball : MonoBehaviour
     private bool _isShooting;
 
     public Slider _strenghSlider;
-
+    public Slider _effectSlider;
+    
     Vector3 _gravity = new Vector3(0, -4.41f, 0);
 
     private Vector3 _vectorDirection;
@@ -43,7 +44,7 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        forceIncrement();
+        CanvasControl();
 
         _strenghSlider.value = _shootStrengh;
         if((transform.position - (transform.position + _vectorDirection * _velocity * Time.deltaTime)).z > (transform.position - _targetTransform.position).z)
@@ -67,7 +68,7 @@ public class Ball : MonoBehaviour
     }
 
 
-    public void forceIncrement()
+    public void CanvasControl()
     {
         if (Input.GetKey(KeyCode.Space))
         {
@@ -84,7 +85,14 @@ public class Ball : MonoBehaviour
             _isShooting = true;
             StartCoroutine(ReturnGame());
             
-
+        }
+        else if (Input.GetKey(KeyCode.Z))
+        {
+            _effectSlider.value -= 0.05f;
+        }
+        else if (Input.GetKey(KeyCode.X))
+        {
+            _effectSlider.value += 0.05f;
         }
 
     }

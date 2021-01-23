@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82c8c449-d8ce-4088-955d-1ea32e8d6601" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/football_game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/football_game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DrawLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SliderMagnusEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
       </list>
     </option>
@@ -95,7 +94,7 @@
       <workItem from="1610290692520" duration="1856000" />
       <workItem from="1610790711307" duration="4331000" />
       <workItem from="1611252228579" duration="900000" />
-      <workItem from="1611397858197" duration="2495000" />
+      <workItem from="1611397858197" duration="3336000" />
     </task>
     <servers />
   </component>
