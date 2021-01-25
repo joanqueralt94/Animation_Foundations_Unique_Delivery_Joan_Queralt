@@ -9,6 +9,9 @@ public class Ball : MonoBehaviour
     [SerializeField]
     Transform _targetTransform;
 
+    [SerializeField]
+    private List<Animation> _robots;
+    
     private float _velocity;
     public float _shootStrengh;
     public float _maxStrengh;
@@ -27,6 +30,8 @@ public class Ball : MonoBehaviour
     private Rigidbody _rb;
 
     public Transform _arrow;
+    
+    
 
    
     
