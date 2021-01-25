@@ -26,6 +26,11 @@ public class Ball : MonoBehaviour
 
     private Rigidbody _rb;
 
+    public Transform _arrow;
+
+   
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,7 +50,7 @@ public class Ball : MonoBehaviour
     void Update()
     {
         CanvasControl();
-
+        _arrow.LookAt(_targetTransform);
         _strenghSlider.value = _shootStrengh;
         if((transform.position - (transform.position + _vectorDirection * _velocity * Time.deltaTime)).z > (transform.position - _targetTransform.position).z)
         {
@@ -83,6 +88,7 @@ public class Ball : MonoBehaviour
         {
 
             _isShooting = true;
+            _arrow.gameObject.SetActive(false);
             StartCoroutine(ReturnGame());
             
         }
@@ -100,9 +106,11 @@ public class Ball : MonoBehaviour
     private IEnumerator ReturnGame()
     {
         yield return new WaitForSeconds(1f);
+        _arrow.gameObject.SetActive(true);
         _isShooting = false;
         _shootStrengh = 0f;
         transform.position = _initialPosition;
+        
 
     }
 }
