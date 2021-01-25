@@ -5387,13 +5387,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d53e26a92a5bc4fa45fb11b6f5b2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ball: {fileID: 1938829479}
+  _targetTransform: {fileID: 1418656078}
   _shootStrengh: 0
   _maxStrengh: 0
   _strenghSlider: {fileID: 1725396510}
-  _origin: {fileID: 1938829484}
-  _destination: {fileID: 1418656078}
-  _lineRenderer: {fileID: 1834985289}
+  _effectSlider: {fileID: 1172727220}
 --- !u!54 &1938829486
 Rigidbody:
   m_ObjectHideFlags: 0

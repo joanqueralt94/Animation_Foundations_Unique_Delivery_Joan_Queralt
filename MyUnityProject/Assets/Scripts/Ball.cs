@@ -86,6 +86,7 @@ public class Ball : MonoBehaviour
             StartCoroutine(ReturnGame());
             
         }
+        /*
         else if (Input.GetKey(KeyCode.Z))
         {
             _effectSlider.value -= 0.05f;
@@ -93,7 +94,7 @@ public class Ball : MonoBehaviour
         else if (Input.GetKey(KeyCode.X))
         {
             _effectSlider.value += 0.05f;
-        }
+        }*/
 
     }
 
