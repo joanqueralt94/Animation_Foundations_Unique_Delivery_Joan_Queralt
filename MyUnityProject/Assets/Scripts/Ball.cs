@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +13,9 @@ public class Ball : MonoBehaviour
 
     [SerializeField]
     private List<Animation> _robots;
+
+    [SerializeField]
+    private Animator _player;
     
     private float _velocity;
     public float _shootStrengh;
@@ -18,6 +23,7 @@ public class Ball : MonoBehaviour
 
     private float _mass = 1f;
     private bool _isShooting;
+    private bool _scored = true;
 
     public Slider _strenghSlider;
     public Slider _effectSlider;
@@ -47,13 +53,14 @@ public class Ball : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
         _initialPosition = transform.position;
 
-
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         CanvasControl();
         _arrow.LookAt(_targetTransform);
         _strenghSlider.value = _shootStrengh;
@@ -65,11 +72,12 @@ public class Ball : MonoBehaviour
         
         if (_isShooting)
         {
+            
             _rb.isKinematic = true;
             _vectorDirection = (_targetTransform.position - transform.position).normalized;
             _velocity = _shootStrengh / _mass;
             transform.position += (_vectorDirection * _velocity) * Time.deltaTime + _gravity * Time.deltaTime;
-            
+            StartCoroutine(ReturnGame());
         }
         else
         {
@@ -91,11 +99,8 @@ public class Ball : MonoBehaviour
         }
         else if (Input.GetKeyUp(KeyCode.Space))
         {
-
-            _isShooting = true;
-            _arrow.gameObject.SetActive(false);
-            StartCoroutine(ReturnGame());
-            
+            StartCoroutine(PlayerMovement());
+            //StartCoroutine(ReturnGame());
         }
         else if (Input.GetKey(KeyCode.Z))
         {
@@ -110,11 +115,26 @@ public class Ball : MonoBehaviour
 
     private IEnumerator ReturnGame()
     {
+        for (int i = 0; i < _robots.Count; i++)
+        {
+            yield return new WaitForSeconds(0.5f);
+            _robots[i].Play();
+        }
         yield return new WaitForSeconds(1f);
         _arrow.gameObject.SetActive(true);
         _isShooting = false;
         _shootStrengh = 0f;
         transform.position = _initialPosition;
+        
+    }
+
+    private IEnumerator PlayerMovement()
+    {
+        _player.SetTrigger("hasToKickBall");
+        yield return new WaitForSeconds(5.8f);
+        
+        _isShooting = true;
+        _arrow.gameObject.SetActive(false);
         
 
     }

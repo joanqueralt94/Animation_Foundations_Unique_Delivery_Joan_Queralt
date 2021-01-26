@@ -20,16 +20,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82c8c449-d8ce-4088-955d-1ea32e8d6601" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.bck.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.bck/Robot Kyle.001.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.bck/Robot Kyle.001.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.bck/Robot Kyle.002.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.bck/Robot Kyle.002.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot KyleAnimationStandUp.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot KyleAnimationStandUp.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck/AleixAA3.006.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck/AleixAA3.006.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck/AleixAA3.007.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck/AleixAA3.007.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck/AleixAA3.008.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck/AleixAA3.008.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck/AleixAA3.009.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.bck/AleixAA3.009.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.fbm/AleixAA3_color.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AleixAA3.fbm/AleixAA3_color.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Malcolm Controller.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Malcolm Controller.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.bck.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.bck/MalcolmIdle.001.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.bck/MalcolmIdle.001.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Gloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Gloss.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Opacity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Opacity.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Body_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Gloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Gloss.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Opacity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Opacity.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Bottom_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Gloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Gloss.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Opacity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Opacity.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hair_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Gloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Gloss.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Opacity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Opacity.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Hat_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Gloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Gloss.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Opacity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Opacity.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Shoes_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Gloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Gloss.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Opacity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Opacity.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbm/Malcom_Top_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MalcolmIdle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Robot Kyle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Robot Kyle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Samba_Dancing.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Samba_Dancing.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/SoccerPlayer Controller.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/SoccerPlayer Controller.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/goalkeeper_placing_ball_1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/goalkeeper_placing_ball_1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/r18_01_exported.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/r18_01_exported.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/r19_01_exported.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/r19_01_exported.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/football_game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/football_game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +126,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/roman/Documents/Animation_Foundations_Unique_Delivery_Joan_Queralt/MyUnityProject/Assets/Scripts/Ball.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,6 +193,7 @@
       <workItem from="1611252228579" duration="900000" />
       <workItem from="1611397858197" duration="3931000" />
       <workItem from="1611575627407" duration="6031000" />
+      <workItem from="1611683165353" duration="6036000" />
     </task>
     <task id="LOCAL-00001" summary="Values effect changed by X and Z input">
       <created>1611575869852</created>
@@ -216,9 +301,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1610192902869" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611586540744">
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611693954306">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1611586540744" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1611693954306" />
   </component>
 </project>
