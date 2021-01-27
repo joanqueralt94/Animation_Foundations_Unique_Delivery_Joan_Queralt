@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 using TMPro;
@@ -16,7 +17,13 @@ public class Ball : MonoBehaviour
 
     [SerializeField]
     private Animator _player;
-    
+
+    [SerializeField]
+    private Animator _malcom;
+
+    [SerializeField]
+    public  List<Collision> _collisions; 
+
     private float _velocity;
     public float _shootStrengh;
     public float _maxStrengh;
@@ -36,9 +43,9 @@ public class Ball : MonoBehaviour
     private Rigidbody _rb;
 
     public Transform _arrow;
+    public Transform _playerPrefab;
     
     
-
    
     
 
@@ -53,7 +60,6 @@ public class Ball : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
         _initialPosition = transform.position;
 
-        
 
     }
 
@@ -100,7 +106,6 @@ public class Ball : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.Space))
         {
             StartCoroutine(PlayerMovement());
-            //StartCoroutine(ReturnGame());
         }
         else if (Input.GetKey(KeyCode.Z))
         {
@@ -115,29 +120,57 @@ public class Ball : MonoBehaviour
 
     private IEnumerator ReturnGame()
     {
-        for (int i = 0; i < _robots.Count; i++)
-        {
-            yield return new WaitForSeconds(0.5f);
-            _robots[i].Play();
-        }
-        yield return new WaitForSeconds(1f);
-        _arrow.gameObject.SetActive(true);
-        _isShooting = false;
-        _shootStrengh = 0f;
-        transform.position = _initialPosition;
-        
+       yield return new WaitForSeconds(0.9f);
+
+       if (_scored)
+       {
+           for (int i = 0; i < _robots.Count; i++)
+           {
+               yield return new WaitForSeconds(0.5f);
+               _robots[i].Play();
+           }
+           
+       }
+       else if (!_scored)
+       {
+           yield return new WaitForSeconds(0.9f);
+           _playerPrefab.transform.eulerAngles = new Vector3(0, 0, 0);
+           _malcom.SetTrigger("shakeHands");
+           
+       }
+       _arrow.gameObject.SetActive(true);
+       yield return new WaitForSeconds(1.8f);
+       _playerPrefab.transform.eulerAngles = new Vector3(0,180,0);
+       _isShooting = false;
+       _shootStrengh = 0f;
+       transform.position = _initialPosition;
+       _scored = false;
     }
 
     private IEnumerator PlayerMovement()
     {
+        _scored = false;
+        _player.SetBool("GoalScored", _scored);
         _player.SetTrigger("hasToKickBall");
         yield return new WaitForSeconds(5.8f);
-        
         _isShooting = true;
         _arrow.gameObject.SetActive(false);
-        
+        yield return new WaitForSeconds(2f);
+
 
     }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "Goal")
+        {
+            Debug.Log("GOAL");
+            _scored = true;
+            _player.SetBool("GoalScored",_scored);
+        }
+    }
+    
+        
 }
 
    
