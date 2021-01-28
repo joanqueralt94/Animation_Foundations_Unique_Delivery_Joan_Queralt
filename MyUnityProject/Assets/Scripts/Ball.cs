@@ -122,7 +122,7 @@ public class Ball : MonoBehaviour
 
     private IEnumerator ReturnGame()
     {
-        _parar = false;
+        
         yield return new WaitForSeconds(0.9f);
 
        if (_scored)
@@ -148,6 +148,7 @@ public class Ball : MonoBehaviour
        _shootStrengh = 0f;
        transform.position = _initialPosition;
        _scored = false;
+       _parar = false;
     }
 
     private IEnumerator PlayerMovement()

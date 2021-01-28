@@ -58,9 +58,9 @@ public class MovingTarget: MonoBehaviour
 
     void Update()
     {
-
+        
         transform.rotation = Quaternion.identity;
-
+        
         if (_mode == MovingMode.USERTARGET)
         {
             //get the Input from Horizontal axis
@@ -75,13 +75,14 @@ public class MovingTarget: MonoBehaviour
 
             if (Input.GetButtonDown("Fire1"))
             {
-                
-                _mode = MovingMode.USERTARGET;
+                //_mode = MovingMode.USERTARGET;
                 //Debug.Log("I am object " + name + "  and i am notifying a shooting");
                 _myOctopus.NotifyShoot();
                 //StartCoroutine(TentacleStay());
                 
             }
+            
+            
         }
         else if (_mode == MovingMode.RANDOM) {
 
@@ -91,19 +92,15 @@ public class MovingTarget: MonoBehaviour
 
         }
         
-        /*if (_ball._parar)
+        else if (_ball._parar)
         {
-            _mode = MovingMode.USERTARGET;
-            _myOctopus.NotifyShoot();
+            this._mode = MovingMode.USERTARGET;
         }
-        else
+        else if (!_ball._parar)
         {
-            _mode = MovingMode.RANDOM;
-        }*/
-
-
-
-
+            this._mode = MovingMode.RANDOM;
+        }
+        
     }
 
     IEnumerator ChangeDir()
