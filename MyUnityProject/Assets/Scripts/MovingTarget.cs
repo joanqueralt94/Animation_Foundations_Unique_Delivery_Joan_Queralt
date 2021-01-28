@@ -25,9 +25,12 @@ public class MovingTarget: MonoBehaviour
     GameObject _region;
     float _xMin, _xMax, _yMin, _yMax;
 
-    public Ball _ball;
-
     Vector3 _dir;
+
+    private bool _stop;
+
+    public Transform _point;
+
 
 
     //variable added just to control whether we are 
@@ -36,6 +39,7 @@ public class MovingTarget: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _stop = false;
         if (_mode == MovingMode.RANDOM) {
             if (_region == null)
             {
@@ -53,6 +57,7 @@ public class MovingTarget: MonoBehaviour
 
 
         }
+
     }
 
 
@@ -73,14 +78,16 @@ public class MovingTarget: MonoBehaviour
             
             
 
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                //_mode = MovingMode.USERTARGET;
+                _stop = true;
+                
                 //Debug.Log("I am object " + name + "  and i am notifying a shooting");
                 _myOctopus.NotifyShoot();
                 //StartCoroutine(TentacleStay());
                 
             }
+            
             
             
         }
@@ -92,13 +99,10 @@ public class MovingTarget: MonoBehaviour
 
         }
         
-        else if (_ball._parar)
+        else if (_stop)
         {
             this._mode = MovingMode.USERTARGET;
-        }
-        else if (!_ball._parar)
-        {
-            this._mode = MovingMode.RANDOM;
+            StartCoroutine(StopTentacles());
         }
         
     }
@@ -184,9 +188,11 @@ public class MovingTarget: MonoBehaviour
         return newdir;
     }
 
-    private IEnumerator TentacleStay()
+    private IEnumerator StopTentacles()
     {
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(12f);
+        _stop = false;
+
     }
 
 }

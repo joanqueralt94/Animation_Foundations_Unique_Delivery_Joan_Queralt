@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +52,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SliderMagnusEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Porteria.cs" />
-        <option value="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightBlink.cs" />
+        <option value="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" />
       </list>
@@ -125,7 +126,8 @@
       <workItem from="1611825080177" duration="1958000" />
       <workItem from="1611844667526" duration="10000" />
       <workItem from="1611844848908" duration="1325000" />
-      <workItem from="1611846229943" duration="5304000" />
+      <workItem from="1611846229943" duration="6068000" />
+      <workItem from="1611856006681" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="Values effect changed by X and Z input">
       <created>1611575869852</created>

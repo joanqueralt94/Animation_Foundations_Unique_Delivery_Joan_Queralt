@@ -31,7 +31,6 @@ public class Ball : MonoBehaviour
     private float _mass = 1f;
     public bool _isShooting;
     private bool _scored = true;
-    public bool _parar;
 
     public Slider _strenghSlider;
     public Slider _effectSlider;
@@ -54,7 +53,6 @@ public class Ball : MonoBehaviour
     void Start()
     {
         _isShooting = false;
-        _parar = false;
 
         _shootStrengh = 0f;
         _maxStrengh = 100f;
@@ -148,13 +146,11 @@ public class Ball : MonoBehaviour
        _shootStrengh = 0f;
        transform.position = _initialPosition;
        _scored = false;
-       _parar = false;
     }
 
     private IEnumerator PlayerMovement()
     {
         _scored = false;
-        _parar = true;
         _player.SetBool("GoalScored", _scored);
         _player.SetTrigger("hasToKickBall");
         yield return new WaitForSeconds(5.8f);

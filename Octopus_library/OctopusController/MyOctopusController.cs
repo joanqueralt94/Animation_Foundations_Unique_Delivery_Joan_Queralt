@@ -134,22 +134,22 @@ namespace OctopusController
             switch (_currentRegion.name)
             {
                 case "region1":
-                    Debug.Log("shoot a " + _currentRegion.name);
+                    //Debug.Log("shoot a " + _currentRegion.name);
                     _container = _randomTargets[0];
                     _randomTargets[0].position = _target.position;
                     break;
                 case "region2":
-                   Debug.Log("shoot a " + _currentRegion.name);
+                    //Debug.Log("shoot a " + _currentRegion.name);
                     _container = _randomTargets[1];
                     _randomTargets[1].position = _target.position;
                     break;
                 case "region3":
-                    Debug.Log("shoot a " + _currentRegion.name);
+                    //Debug.Log("shoot a " + _currentRegion.name);
                     _container = _randomTargets[2];
                     _randomTargets[2].position = _target.position;
                     break;
                 case "region4":
-                    Debug.Log("shoot a " + _currentRegion.name);
+                    //Debug.Log("shoot a " + _currentRegion.name);
                     _container = _randomTargets[3];
                     _randomTargets[3].position = _target.position;
                     break;
