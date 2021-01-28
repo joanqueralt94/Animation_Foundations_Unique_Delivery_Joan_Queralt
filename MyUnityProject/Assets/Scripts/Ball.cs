@@ -29,8 +29,9 @@ public class Ball : MonoBehaviour
     public float _maxStrengh;
 
     private float _mass = 1f;
-    private bool _isShooting;
+    public bool _isShooting;
     private bool _scored = true;
+    public bool _parar;
 
     public Slider _strenghSlider;
     public Slider _effectSlider;
@@ -53,6 +54,7 @@ public class Ball : MonoBehaviour
     void Start()
     {
         _isShooting = false;
+        _parar = false;
 
         _shootStrengh = 0f;
         _maxStrengh = 100f;
@@ -120,7 +122,8 @@ public class Ball : MonoBehaviour
 
     private IEnumerator ReturnGame()
     {
-       yield return new WaitForSeconds(0.9f);
+        _parar = false;
+        yield return new WaitForSeconds(0.9f);
 
        if (_scored)
        {
@@ -150,6 +153,7 @@ public class Ball : MonoBehaviour
     private IEnumerator PlayerMovement()
     {
         _scored = false;
+        _parar = true;
         _player.SetBool("GoalScored", _scored);
         _player.SetTrigger("hasToKickBall");
         yield return new WaitForSeconds(5.8f);

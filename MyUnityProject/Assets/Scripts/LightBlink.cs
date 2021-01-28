@@ -35,7 +35,8 @@ public class LightBlink : MonoBehaviour
             _myLight.color = initColor;
 
         }
-
+            
+        
     }
 
 
