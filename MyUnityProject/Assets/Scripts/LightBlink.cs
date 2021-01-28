@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LightBlink : MonoBehaviour
 {
@@ -23,7 +24,11 @@ public class LightBlink : MonoBehaviour
         {
             _endtime = Time.time + _duration;
         }
-
+        
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("football_game");
+        }
 
         if(Time.time  <= _endtime)
         { 

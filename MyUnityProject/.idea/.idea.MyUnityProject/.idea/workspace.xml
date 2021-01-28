@@ -23,20 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82c8c449-d8ce-4088-955d-1ea32e8d6601" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/OctopusController.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/OctopusController.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/OctopusController.dll.mdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/OctopusController.dll.mdb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/OctopusController.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/OctopusController.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/OctopusController.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/OctopusController.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/OctopusController.pdb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/OctopusController.pdb.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/football_game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/football_game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LightBlink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LightBlink.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Octopus_library/OctopusController/MyTentacleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Octopus_library/OctopusController/MyTentacleController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +50,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SliderMagnusEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Porteria.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LightBlink.cs" />
         <option value="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LightBlink.cs" />
       </list>
     </option>
   </component>
@@ -136,7 +124,7 @@
       <workItem from="1611825080177" duration="1958000" />
       <workItem from="1611844667526" duration="10000" />
       <workItem from="1611844848908" duration="1325000" />
-      <workItem from="1611846229943" duration="2949000" />
+      <workItem from="1611846229943" duration="3189000" />
     </task>
     <task id="LOCAL-00001" summary="Values effect changed by X and Z input">
       <created>1611575869852</created>
