@@ -1,0 +1,4 @@
+Instructions to play:
+
+- Move WASD to change ball direction (show as the blue sphere target)
+- Press "Space" to increment the shot force amount
