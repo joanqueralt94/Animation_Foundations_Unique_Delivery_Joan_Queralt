@@ -24,9 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82c8c449-d8ce-4088-955d-1ea32e8d6601" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../READMEunique_delivery.md" beforeDir="false" afterPath="$PROJECT_DIR$/../READMEunique_delivery.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/0BFDD200-610F-49A3-A4EF-D50C990E6EBA/7a/d886aded/OctopusController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Octopus_library/OctopusController/MyTentacleController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/732F8D76-88B8-4C9E-9D98-59B0BA05AF11/8e/4e0392b4/UnityEngine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0BFDD200-610F-49A3-A4EF-D50C990E6EBA/ea/3cc67638/IKMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -56,6 +55,7 @@
         <option value="$PROJECT_DIR$/../Octopus_library/OctopusController/MyOctopusController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingTarget.cs" />
+        <option value="$PROJECT_DIR$/../../ENTI/Animation_Foundations_Unique_Delivery_Joan_Queralt/Animation_Foundations_Unique_Delivery_Joan_Queralt/README.md" />
       </list>
     </option>
   </component>
@@ -128,6 +128,8 @@
       <workItem from="1611844848908" duration="1325000" />
       <workItem from="1611846229943" duration="6068000" />
       <workItem from="1611856006681" duration="2909000" />
+      <workItem from="1611867741556" duration="731000" />
+      <workItem from="1611927794549" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="Values effect changed by X and Z input">
       <created>1611575869852</created>
@@ -231,6 +233,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610192668142" />
+    <state x="418" y="287" key="Rider.ProjectTemplateDialog.Size" timestamp="1611927828007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="418" y="287" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1611927828007" />
     <state x="444" y="153" key="SettingsEditor" timestamp="1611776184076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
